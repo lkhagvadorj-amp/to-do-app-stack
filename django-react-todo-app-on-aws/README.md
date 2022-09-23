@@ -24,13 +24,13 @@ In this section, you will create a new project directory and install Django.
 Open a new terminal window and run the following command to create a new project directory:
 
 ```bash
-mkdir django-todo-react
+mkdir django-react-todo-app-on-aws
 ```
 
 Next, navigate into the directory:
 
 ```bash
-cd django-todo-react
+cd django-react-todo-app-on-aws
 ```
 
 Now install Pipenv using pip:
@@ -314,7 +314,7 @@ This completes the building of the backend of the application.
 # Step 3 — Setting Up the Frontend
 Now that you have the backend of the application complete, you can create the frontend and have it communicate with the backend over the interface that you created.
 
-First, open a new terminal window and navigate to the `django-todo-react` project directory.
+First, open a new terminal window and navigate to the `django-react-todo-app-on-aws` project directory.
 
 To set up the frontend, this tutorial will rely upon Create React App. There are several approaches to using `create-react-app`. One approach is to use `npx` to run the package and create the project:
 
